@@ -1,7 +1,5 @@
 # Excoherence
 
-Self-Actualization Through Fitness and Art
+2-D Abstract Art Gallery
 
 https://excoherence.com/
-# excoherence
-# excoherence
