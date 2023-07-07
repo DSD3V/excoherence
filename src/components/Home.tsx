@@ -7,12 +7,13 @@ export const Home = ({ navbarHeight }: {
     navbarHeight: number;
 }) => {
     const Container = styled.div`
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fill, 270px);
         margin: 0 auto;
         padding: ${navbarHeight + 20}px;
-        width: 80%;
+        justify-content: center;
+        width: 85%;
     `;
 
     const Description = styled.span`
@@ -28,7 +29,7 @@ export const Home = ({ navbarHeight }: {
         flex-direction: column;
         justify-content: space-around;
         margin: 20px;
-        width: 250px;
+        width: 270px;
     `
 
     const Img = styled.img`
