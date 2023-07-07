@@ -18,6 +18,7 @@ export const Home = ({ navbarHeight }: {
     const Description = styled.span`
         color: rgba(255, 255, 255, 0.7);
         padding: 10px;
+        text-align: center;
     `
 
     const Div = styled.div`
@@ -25,7 +26,7 @@ export const Home = ({ navbarHeight }: {
         border: 1px solid rgba(250, 250, 250, 0.2);
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: 20px;
         width: 250px;
     `
