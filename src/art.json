@@ -1,5 +1,13 @@
 [
     {
+        "description": "\"Zen Man\"",
+        "image": "ZenMan.jpg"
+    },
+    {
+        "description": "\"Strife and Unity\"",
+        "image": "StrifeAndUnity.jpg"
+    },
+    {
         "description": "\"Magma\"",
         "image": "Magma.jpg"
     },
