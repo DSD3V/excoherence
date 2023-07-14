@@ -13,7 +13,6 @@ export const Home = ({ navbarHeight }: {
         margin: 0 auto;
         padding: ${navbarHeight + 20}px;
         justify-content: center;
-        width: 85%;
     `;
 
     const Description = styled.span`
