@@ -10,9 +10,10 @@ export const Home = ({ navbarHeight }: {
         display: grid;
         grid-gap: 2rem;
         grid-template-columns: repeat(auto-fill, 270px);
+        justify-content: center;
         margin: 0 auto;
         padding: ${navbarHeight + 20}px;
-        justify-content: center;
+        width: 85%;
     `;
 
     const Description = styled.span`
@@ -32,9 +33,9 @@ export const Home = ({ navbarHeight }: {
     `
 
     const Img = styled.img`
-        width: 250px;
         height: 300px;
         padding: 5px;
+        width: 250px;
     `
 
     return (
