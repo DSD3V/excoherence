@@ -1,5 +1,9 @@
 [
     {
+        "description": "\"Addiction\"",
+        "image": "Addiction.jpg"
+    },
+    {
         "description": "\"Pattern Matching vs. Breaking Patterns\"",
         "image": "PatternMatchingVsBreakingPatterns.jpg"
     },
