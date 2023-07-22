@@ -12,7 +12,7 @@ export const Home = ({ navbarHeight }: {
         grid-template-columns: repeat(auto-fill, 275px);
         justify-content: center;
         margin: 0 auto;
-        padding-top: ${navbarHeight + 20}px;
+        padding: ${navbarHeight + 20}px 0;
         width: 85%;
     `;
 
