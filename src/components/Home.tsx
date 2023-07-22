@@ -8,11 +8,11 @@ export const Home = ({ navbarHeight }: {
 }) => {
     const Container = styled.div`
         display: grid;
-        grid-gap: 2rem;
-        grid-template-columns: repeat(auto-fill, 270px);
+        grid-gap: 3rem;
+        grid-template-columns: repeat(auto-fill, 275px);
         justify-content: center;
         margin: 0 auto;
-        padding: ${navbarHeight + 20}px;
+        padding-top: ${navbarHeight + 20}px;
         width: 85%;
     `;
 
@@ -28,8 +28,7 @@ export const Home = ({ navbarHeight }: {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin: 20px;
-        width: 270px;
+        width: 275px;
     `
 
     const Img = styled.img`
