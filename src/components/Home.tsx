@@ -1,7 +1,10 @@
-import { Fragment, useState } from 'react';
+import { BiLinkExternal } from 'react-icons/bi';
 import styled from 'styled-components';
 
 import art from '../art.json'
+  
+const LIGHT_LINK_BLUE = '#0963F6';
+const LINK_BLUE ='#074FC6';
 
 export const Home = ({ navbarHeight }: {
     navbarHeight: number;
@@ -18,8 +21,12 @@ export const Home = ({ navbarHeight }: {
 
     const Description = styled.span`
         color: rgba(255, 255, 255, 0.7);
-        padding: 10px;
         text-align: center;
+    `
+
+    const DescriptionDiv = styled.div`
+        display: flex;
+        padding: 10px; 
     `
 
     const Div = styled.div`
@@ -37,12 +44,44 @@ export const Home = ({ navbarHeight }: {
         width: 250px;
     `
 
+    const Link = styled.a`
+        align-items: center;
+        color: ${LINK_BLUE};
+        cursor: pointer;
+        display: inline-flex;
+        font-size: 1rem;
+        margin-top: -3px;
+        padding-left: 2px;
+        text-decoration: none;
+        transition: 0.3s;
+    
+        svg {
+            fill: ${LINK_BLUE};
+            padding-left: 3px;
+            transition: 0.3s;
+        }
+    
+        :hover {
+            color: ${LIGHT_LINK_BLUE};
+    
+            svg {
+                fill: ${LIGHT_LINK_BLUE};
+            }
+        }
+  `;
+
     return (
         <Container>
-            {art.map(({ description, image }, idx) =>
+            {art.map(({ description, image, link }) =>
                 <Div key={description}>
                     <Img src={ require("../images/" + image).default } />
-                    <Description>{description}</Description>
+                    <DescriptionDiv>
+                        <Description>{description}</Description>
+                        {link !== '' &&
+                            <Link href={link} rel="noopener noreferrer" target="_blank">
+                                <BiLinkExternal style={{ backgroundColor: 'transparent' }} />
+                            </Link>}
+                    </DescriptionDiv>
                 </Div>
             )}
         </Container>
