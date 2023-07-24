@@ -1,5 +1,5 @@
 # Excoherence
 
-2-D Abstract Art Gallery
+2-D Art Gallery
 
 https://excoherence.com/
