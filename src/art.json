@@ -1,5 +1,15 @@
 [
     {
+        "description": "\"Parallelism\"",
+        "image": "Parallelism.jpg",
+        "link": "https://en.wikipedia.org/wiki/Psychophysical_parallelism"
+    },
+    {
+        "description": "\"Heavenly Spheres\"",
+        "image": "HeavenlySpheres.jpg",
+        "link": "https://en.wikipedia.org/wiki/Celestial_spheres"
+    },
+    {
         "description": "\"Epicurean Swerve\"",
         "image": "EpicureanSwerve.jpg",
         "link": "https://en.wikipedia.org/wiki/Clinamen"
