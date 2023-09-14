@@ -188,5 +188,19 @@
         "description": "\"Nothing Remaining\"",
         "image": "NothingRemaining.jpg",
         "link": "https://docs.google.com/document/d/19xyhdjB4nby1K61oEMaEwSAqxwoW3PCJz86js6Sa6sc/edit?usp=sharing"
+    },    {
+        "description": "\"Left Unfinished\"",
+        "image": "LeftUnfinished.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Beautiful Boxes\"",
+        "image": "BeautifulBoxes.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"A Cool Alien\"",
+        "image": "ACoolAlien.jpg",
+        "link": ""
     }
 ]
