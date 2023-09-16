@@ -188,7 +188,18 @@
         "description": "\"Nothing Remaining\"",
         "image": "NothingRemaining.jpg",
         "link": "https://docs.google.com/document/d/19xyhdjB4nby1K61oEMaEwSAqxwoW3PCJz86js6Sa6sc/edit?usp=sharing"
-    },    {
+    },
+    {
+        "description": "\"What's the Point?\"",
+        "image": "WhatsThePoint.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Should I Try Making Art Again?\"",
+        "image": "ShouldITryMakingArtAgain.jpg",
+        "link": ""
+    },
+    {
         "description": "\"Left Unfinished\"",
         "image": "LeftUnfinished.jpg",
         "link": ""
@@ -199,8 +210,113 @@
         "link": ""
     },
     {
+        "description": "\"Borderless with Borders\"",
+        "image": "BorderlessWithBorders.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Loopy 2.0\"",
+        "image": "Loopy2.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Loopy 1.0\"",
+        "image": "Loopy1.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Patience, Balance, and Focus -1.0\"",
+        "image": "PatienceBalanceFocus-1.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"A Monster?\"",
+        "image": "AMonster.jpg",
+        "link": ""
+    },
+    {
         "description": "\"A Cool Alien\"",
         "image": "ACoolAlien.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed Symmetry -1.0\"",
+        "image": "UnnamedSymmetry-1.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed Symmetry -2.0\"",
+        "image": "UnnamedSymmetry-2.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Rows\"",
+        "image": "Rows.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Kinda Scary\"",
+        "image": "KindaScary.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed 5.0\"",
+        "image": "Unnamed5.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed 4.0\"",
+        "image": "Unnamed4.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed 3.0\"",
+        "image": "Unnamed3.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed 2.0\"",
+        "image": "Unnamed2.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Unnamed 1.0\"",
+        "image": "Unnamed1.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Color Flow\"",
+        "image": "ColorFlow.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Columns -1.0\"",
+        "image": "Columns-1.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Columns -2.0\"",
+        "image": "Columns-2.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Spiral\"",
+        "image": "Spiral.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Cells\"",
+        "image": "Cells.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Egg 2.0\"",
+        "image": "Egg2.0.jpg",
+        "link": ""
+    },
+    {
+        "description": "\"Egg 1.0\"",
+        "image": "Egg1.0.jpg",
         "link": ""
     }
 ]
