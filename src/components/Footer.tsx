@@ -20,6 +20,6 @@ export const Footer = ({ navbarHeight }: {
   `;
 
   return (
-    <FooterDiv>ex@excoherence.com</FooterDiv>
+    <FooterDiv>Ξ X C O H E Г E N C E</FooterDiv>
   )
 }

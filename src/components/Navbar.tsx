@@ -15,12 +15,6 @@ export const Navbar = ({ navbarHeight }: {
     position: fixed;
     width: 100%;
     z-index: 1;
-
-    div:nth-child(2) {
-      color: rgba(255, 255, 255, 0.4);
-      font-size: 0.9rem;
-      margin-top: 5px;
-    }
   `;
 
   return (
